@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Large CAD / Media files distributed via GitHub Releases
+*.STL
+*.stl
+experiments/media/IMG_1578.MOV
+
+# CAD / Office / OS temporary files
+~$*
+*.swj
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editors
+.vscode/
+.idea/
+.obsidian/
+
+# LaTeX build artifacts
+paper/latex/*.aux
+paper/latex/*.bbl
+paper/latex/*.blg
+paper/latex/*.log
+paper/latex/*.out
+paper/latex/*.toc
+paper/latex/*.synctex.gz
+paper/latex/_minted*/
