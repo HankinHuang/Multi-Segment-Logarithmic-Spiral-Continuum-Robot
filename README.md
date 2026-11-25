@@ -9,6 +9,7 @@ Official code, mechanical CAD models, experimental datasets, and paper source fo
 > **A Multi-Segment Logarithmic Spiral Continuum Robot with a Stretchable Central Backbone: Design and Coupled Kinematic Modeling**  
 > Huaicheng Huang, Pingsong Deng, Guolei Wang*
 > *EECR 2026*
+> https://doi.org/10.1109/EECR69522.2026.11548958
 
 <p align="center">
   <img src="paper/latex/assets/Method.png" alt="Logarithmic Spiral Continuum Robot Design" width="90%">
