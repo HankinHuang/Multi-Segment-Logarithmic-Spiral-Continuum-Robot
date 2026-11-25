@@ -130,13 +130,3 @@ If you find this work useful in your research, please cite:
   year      = {2026}
 }
 ```
-
----
-
-## 中文简介
-
-本项目为论文 *A Multi-Segment Logarithmic Spiral Continuum Robot with a Stretchable Central Backbone: Design and Coupled Kinematic Modeling* 的配套开源仓库，包含四段 12 自由度对数螺旋连续体机器人的耦合运动学控制代码、SolidWorks 机械设计图纸、样机定位误差实验数据及 IEEEtran LaTeX 论文源码。
-
-- **控制与运动学核心 (`src/`)**：包含面向四段结构的分段逆运动学补偿模型（`src/kinematics/`）、基于分段常曲率（PCC）的正向运动学验证（`src/location.py`）、飞特串行总线舵机多圈绝对位置跟踪控制器（`src/multi_turn_handler.py`）以及主控台程序（`src/robot_control.py`）。
-- **机械结构与打印件 (`cad/`)**：仓库内直接包含 SolidWorks 装配体/零件源文件与 STEP/DXF 中性格式；体积较大的 3D 打印 `.STL` 模型通过 GitHub Releases 分发。
-- **实验数据与误差分析 (`experiments/`, `src/analysis/`)**：提供四段样机理论与实测圆柱坐标 CSV 数据，可通过 `python src/analysis/error_distance.py --segment 4` 复现三维定位误差统计。
