@@ -4,6 +4,8 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-green.svg)](https://www.python.org/)
 [![Conference: EECR 2026](https://img.shields.io/badge/Paper-EECR%202026-orange.svg)](paper/A_Multi_Segment_Logarithmic_Spiral_Continuum_Robot.pdf)
 
+**English** | [简体中文](README_CN.md)
+
 Official code, mechanical CAD models, experimental datasets, and paper source for:
 
 > **A Multi-Segment Logarithmic Spiral Continuum Robot with a Stretchable Central Backbone: Design and Coupled Kinematic Modeling**  
